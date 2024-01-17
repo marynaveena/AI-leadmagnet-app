@@ -66,7 +66,7 @@ async function LeadMagnetsPage() {
     <LeadMagnetsContainer
       leadMagnets={leadMagnets}
       leads={leads}
-      subcription={subscription}
+      subscription={subscription}
     />
   );
 }

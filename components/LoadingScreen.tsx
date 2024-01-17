@@ -1,6 +1,5 @@
 import React from "react";
-import { RingLoader } from "react-spinners";
-
+import RingLoader from "react-spinners/RingLoader";
 
 function LoadingScreen() {
   return (

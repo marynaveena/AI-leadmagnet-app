@@ -14,17 +14,16 @@ interface LeadMagnetEditorContainerProps {
 
 function LeadMagnetEditorContainer({
   leadMagnet,
-}: LeadMagnetEditorContainerProps) 
-{
+}: LeadMagnetEditorContainerProps) {
   const { isLoaded } = useSession();
 
   if (!isLoaded) return <LoadingScreen />;
 
   return (
     <LeadMagnetEditorContextProvider leadMagnet={leadMagnet}>
-     <ProfileEditorContextProvider>
+      <ProfileEditorContextProvider>
         <LeadMagnetEditor />
-    </ProfileEditorContextProvider>
+      </ProfileEditorContextProvider>
     </LeadMagnetEditorContextProvider>
   );
 }
