@@ -9,6 +9,8 @@ datasource db {
   url = env("DATABASE_URL")
   relationMode = "prisma"
 }
+ 
+  
 model LeadMagnet {
   id                     String    @id @default(uuid())
   userId                 String
