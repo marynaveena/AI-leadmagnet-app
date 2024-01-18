@@ -1,5 +1,5 @@
 import { Input } from "@/components/ui/input";
-import { useLeadMagnetEditorContext } from "@/context/LeadMagnetEditorContex";
+import { useLeadMagnetEditorContext } from "@/context/LeadMagnetEditorContext";
 import React, { useEffect } from "react";
 import { Editor, EditorContent } from "@tiptap/react";
 import BulletList from "@tiptap/extension-bullet-list";
