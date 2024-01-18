@@ -21,7 +21,7 @@ const seed = async () => {
       publishedTitle: "This is a published title",
       slug: "lead-magnet-slug",
       status: "draft",
-      userId: "user_2aNxJDnSDHPooZ8UqhMM2K1XJE5",
+      userId: "user_2b7VgFiS5ondSHfWq52iEDBdLKa",
     },
   });
 
@@ -31,13 +31,13 @@ const seed = async () => {
         name: "Dummy User 1",
         email: "dummy1@gmail.com",
         leadMagnetId: "123456789",
-        userId: "user_2aNxJDnSDHPooZ8UqhMM2K1XJE5",
+        userId: "user_2b7VgFiS5ondSHfWq52iEDBdLKa",
       },
       {
         name: "Dummy User 2",
         email: "dummy2@gmail.com",
         leadMagnetId: "123456789",
-        userId: "user_2aNxJDnSDHPooZ8UqhMM2K1XJE5",
+        userId: "user_2b7VgFiS5ondSHfWq52iEDBdLKa",
       },
     ],
   });
